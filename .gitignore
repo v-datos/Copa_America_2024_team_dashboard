@@ -39,7 +39,7 @@ ENV/
 .env
 
 # Data files (you might want to track these, but they're often large)
-*.csv
+#*.csv
 *.xlsx
 *.db
 *.sqlite
