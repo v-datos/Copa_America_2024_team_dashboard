@@ -1,0 +1,9 @@
+streamlit==1.48.1
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+mplsoccer==1.5.1
+highlight-text
+statsbombpy
