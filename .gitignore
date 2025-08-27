@@ -38,8 +38,8 @@ ENV/
 # Environment variables
 .env
 
-# Data files (you might want to track these, but they're often large)
-#*.csv
+# Data files (often large) — ignore by default
+*.csv
 *.xlsx
 *.db
 *.sqlite
