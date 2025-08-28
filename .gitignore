@@ -65,5 +65,3 @@ local_settings.py
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# GitHub token valid for 90 days, until: 2025-11-27
