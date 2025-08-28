@@ -96,7 +96,7 @@ def analyze_team_passes(pass_df: pd.DataFrame, team: str) -> Dict[str, Union[int
     # Calculate all metrics
     metrics = {
         'total_passes': total_passes,
-        'passes_per_match': len(total_passes) / team_passes['match_id'].nunique(),
+        'passes_per_match': total_passes / team_passes['match_id'].nunique(),
         'completed_passes': len(team_passes[team_passes['pass_outcome'] == 'Completed']),
         'completed_passes_per_match': len(team_passes[team_passes['pass_outcome'] == 'Completed']) / team_passes['match_id'].nunique(),
         'cross_passes': len(team_passes[team_passes['pass_cross'] == True]),
@@ -2448,9 +2448,18 @@ def plot_team_touch_comparison(team1_name, team2_name, event_df,
     
     return fig,axs
 
+<<<<<<< HEAD
 # Example usage:
 plot_team_touch_comparison(
     team1_name='Venezuela',
     team2_name='Canada',
     event_df=events_df  # Your events DataFrame
 )
+=======
+# # Example usage:
+# plot_team_touch_comparison(
+#     team1_name='Venezuela',
+#     team2_name='Canada',
+#     event_df=events_df
+# )
+>>>>>>> Load events via Google Drive link with low_memory=False; suppress warnings; fix xG timeline call signature
