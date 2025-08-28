@@ -2448,18 +2448,10 @@ def plot_team_touch_comparison(team1_name, team2_name, event_df,
     
     return fig,axs
 
-<<<<<<< HEAD
 # Example usage (commented out to avoid running on import):
-=======
-
-# # Example usage:
->>>>>>> cc6ba417986ff0eea73082bb925cdc9e54f169da
 # plot_team_touch_comparison(
 #     team1_name='Venezuela',
 #     team2_name='Canada',
 #     event_df=events_df
 # )
-<<<<<<< HEAD
-=======
 
->>>>>>> cc6ba417986ff0eea73082bb925cdc9e54f169da
