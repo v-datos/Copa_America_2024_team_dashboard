@@ -113,7 +113,7 @@ st.markdown("""
 def load_data():
     """Load all Copa America 2024 data"""
     try:
-        events_df = pd.read_csv('copa_america_events.csv')
+        events_df = pd.read_csv('https://drive.google.com/uc?export=download&id=1hD7P5uCluMfOnM1q--7e4XSEbxZT3rnU',low_memory=False)
         copa_america_games = pd.read_csv('copa_america_games_2024.csv')
         block_df = pd.read_csv('copa_america_blocks_2024.csv')
         dribbled_pasts_df = pd.read_csv('copa_america_dribbled_pasts_2024.csv')
