@@ -303,7 +303,7 @@ def main():
     
     # Tab 1: Main KPIs
     with tab1:
-        st.markdown(f'<div class="tab-header">Metrics for {selected_team}ß</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="tab-header">Metrics for {selected_team}</div>', unsafe_allow_html=True)
         
         # xG Timeline
         st.subheader("Expected Goals Timeline")
