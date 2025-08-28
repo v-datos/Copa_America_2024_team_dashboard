@@ -2448,18 +2448,11 @@ def plot_team_touch_comparison(team1_name, team2_name, event_df,
     
     return fig,axs
 
-<<<<<<< HEAD
-# Example usage:
-plot_team_touch_comparison(
-    team1_name='Venezuela',
-    team2_name='Canada',
-    event_df=events_df  # Your events DataFrame
-)
-=======
+
 # # Example usage:
 # plot_team_touch_comparison(
 #     team1_name='Venezuela',
 #     team2_name='Canada',
 #     event_df=events_df
 # )
->>>>>>> Load events via Google Drive link with low_memory=False; suppress warnings; fix xG timeline call signature
+
