@@ -97,6 +97,7 @@ def analyze_team_passes(pass_df: pd.DataFrame, team: str) -> Dict[str, Union[int
     metrics = {
         'total_passes': total_passes,
         'passes_per_match': total_passes / team_passes['match_id'].nunique(),
+        'passes_per_match': total_passes / team_passes['match_id'].nunique(),
         'completed_passes': len(team_passes[team_passes['pass_outcome'] == 'Completed']),
         'completed_passes_per_match': len(team_passes[team_passes['pass_outcome'] == 'Completed']) / team_passes['match_id'].nunique(),
         'cross_passes': len(team_passes[team_passes['pass_cross'] == True]),

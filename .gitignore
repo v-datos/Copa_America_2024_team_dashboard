@@ -39,7 +39,7 @@ ENV/
 .env
 
 # Data files (often large) — ignore by default
-*.csv
+#*.csv
 *.xlsx
 *.db
 *.sqlite
